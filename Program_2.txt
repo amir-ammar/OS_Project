@@ -1,0 +1,7 @@
+semWait userInput
+assign a 20
+assign b 30
+semSignal userInput
+semWait file
+writeFile a b
+semSignal file

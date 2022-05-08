@@ -1,4 +1,6 @@
+
 public class Type {
+
     int intData;
     String stringData;
 
